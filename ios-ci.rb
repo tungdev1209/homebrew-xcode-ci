@@ -14,6 +14,7 @@ class IosCi < Formula
   end
 
   test do
-    assert_match "1.1.3", ` #{bin}/ios-ci -v `
+    version = ` bin/ios-ci -v `
+    assert_match "1.1.3", version
   end
 end
