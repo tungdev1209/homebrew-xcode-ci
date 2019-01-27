@@ -2,7 +2,7 @@ class IosCi < Formula
   desc "Build, Archive & Export iOS/MacOS app via command-line"
   homepage "https://tungdev1209.github.io/ios-ci/"
   url "https://github.com/tungdev1209/ios-ci/archive/v1.1.2.tar.gz"
-  sha256 "fc2c12fc6ec10775b69f53708a8df0e1a49f1a6a977fca7eee99f1d6cdda54ab"
+  sha256 "31d8c7313d7f49fe99df0fa390a4496aa9a178e1ad8c12657951e38063796547"
 
   def install
     bin.install "ios-ci"
