@@ -2,7 +2,7 @@ class XcodeCi < Formula
   desc "CI iOS/MacOS app via command-line"
   homepage "https://tungse1209.github.io/xcode-ci/"
   url "https://github.com/tungse1209/xcode-ci/archive/v1.1.5.tar.gz"
-  sha256 "945e25f1dd11311a666837388570ec2b467d270fbc00c3c977f03cce5c0ed727"
+  sha256 "9c6cca4220c51c00d8c4545daf85385d8d2daee93bfbc3c78497ee1ddb51ab35"
 
   def install
     bin.install "xcode-ci"
